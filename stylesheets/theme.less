@@ -1,0 +1,30 @@
+@theme-color-brand: @color-red-piwik;
+@theme-color-header-background: #37474f;
+@theme-color-header-text: #fff;
+
+@graph-colors-data-series1: #d4291f;
+@graph-colors-data-series2: #1f78b4;
+@graph-colors-data-series4: #33a02c;
+
+// can't find the original colors, so I just make them a bit less bright
+.system.notification {
+    &.notification-success {
+        background-color: desaturate(@color-green-piwik, 25%) !important;
+    }
+    &.notification-warning {
+        background-color: desaturate(#f57c00, 25%);
+    }
+    &.notification-danger,
+    &.notification-error {
+        background-color: desaturate(#e53935, 25%);
+    }
+    &.notification-info {
+        background-color: desaturate(#00bcd4, 25%);
+    }
+}
+
+// set back to materialcss default
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
+    background-color: #26a69a;
+    border-color: #26a69a;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ClassicTheme",
+  "description": "You don't like bright colors? Then this theme brings back the old style of Matomo 3.6.0",
+  "version": "0.1.0",
+  "theme": true,
+  "require": {
+    "piwik": ">=3.7.0,<4.0.0-b1"
+  },
+  "stylesheet": "stylesheets/theme.less",
+  "homepage": "https://lw1.at",
+  "license": "GPL v3+",
+  "keywords": [
+    "theme",
+    "classic"
+  ],
+  "support": {
+    "email": "lukas@matomo.org",
+    "issues": "https://github.com/Findus23/matomo-ClassicTheme/issues",
+    "forum": "https://forum.matomo.org",
+    "source": "https://github.com/Findus23/matomo-ClassicTheme"
+  },
+  "authors": [
+    {
+      "name": "Lukas Winkler",
+      "email": "lukas@matomo.org",
+      "homepage": "https://lw1.at"
+    }
+  ]
+}
